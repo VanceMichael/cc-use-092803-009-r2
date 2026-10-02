@@ -38,6 +38,7 @@ class Assignment:
     state: str = "planned"
     quantity: int = 0
     updated_at: datetime | None = None
+    region: str | None = None
 
 @dataclass
 class AuditEntry:
