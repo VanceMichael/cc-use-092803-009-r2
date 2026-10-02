@@ -35,6 +35,7 @@ class Assignment:
     assignment_id: str
     event_id: str
     team_id: str
+    region: str = ""
     state: str = "planned"
     quantity: int = 0
     updated_at: datetime | None = None
